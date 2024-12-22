@@ -343,10 +343,10 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/CRAZY_OP_02")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/SYSTEM_SUPPROT_GROUP")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/THUNDERDEVS"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/SYSTEM_BOT_UPDATE"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/ll_THUNDER_lll")
         ],
         [
@@ -383,7 +383,7 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/THUNDERDEVS)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/SYSTEM_BOT_UPDATE)**"""
 
 HELP_X = """```
     【◖ 𝐒ᴜᴅʜᴇᴇʀ ◗ 】 🇮🇳 ᴍᴇɴᴜ```
@@ -400,7 +400,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/THUNDERDEVS)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/SYSTEM_BOT_UPDATE)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("ISTKHAR_ALAM"))
@@ -886,15 +886,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ ᴛʜᴜɴᴅᴇʀ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ᴛʜᴜɴᴅᴇʀ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""```\n🔊<b>【◖ Bᴀᴅɴᴀᴍ Xᴅ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹Bᴀᴅɴᴀᴍ Xᴅ˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/THUNDERDEVS"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/SYSTEM_BOT_UPDATE"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/CRAZY_OP_02"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/SYSTEM_SUPPROT_GROUP"
             )
         ],
         [
