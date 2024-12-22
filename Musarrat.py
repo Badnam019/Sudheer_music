@@ -197,10 +197,10 @@ async def main():
         sys.exit()
     if LOG_GROUP_ID != 0:
         try:
-            await bot.send_message(LOG_GROUP_ID, "**🤖 Bot Started.**")
+            await bot.send_message(LOG_GROUP_ID, "**🤖 Bᴏᴛ sᴀᴛʀᴛ ʜᴏ ɢᴀʏᴀ .**")
         except Exception:
             pass
-    LOGGER.info("✅ Bot Started.")
+    LOGGER.info("✅ Bᴏᴛ sᴀᴛʀᴛ ʜᴏ ɢᴀʏᴀ.")
     try:
         await app.start()
     except Exception as e:
