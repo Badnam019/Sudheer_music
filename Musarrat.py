@@ -368,7 +368,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ 𝐓ʜᴜɴᴅᴇʀ ◗ 】 🇮🇳](https://t.me/THUNDERDEVS) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【◖ 𝐒ᴜᴅʜᴇᴇʀ ◗ 】 🇮🇳](https://t.me/THUNDERDEVS) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -386,7 +386,7 @@ HELP_C = """```
 ⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/THUNDERDEVS)**"""
 
 HELP_X = """```
-    【◖ 𝐓ʜᴜɴᴅᴇʀ ◗ 】 🇮🇳 ᴍᴇɴᴜ```
+    【◖ 𝐒ᴜᴅʜᴇᴇʀ ◗ 】 🇮🇳 ᴍᴇɴᴜ```
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -440,11 +440,11 @@ async def start_message_private(client, message):
             await asyncio.sleep(0.005)  # Adjust speed of progress here
 
         # After progress bar reaches 100%, send final message and delete it
-        await baby.edit_text("**❖ ᴛʜᴜɴᴅᴇʀ ᴏᴘ  🇮🇳...**")
+        await baby.edit_text("**❖ sᴜᴅʜᴇᴇʀ ᴏᴘ  🇮🇳...**")
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
-        caption = f"""❖ ᴛʜɪs ɪs ˹ ᴛʜᴜɴᴅᴇʀ ꭙ мυѕιᴄ ˼ 🎶 ! \n\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━\n❖ ᴛʜɪs ɪs ϻɪɴɪ | ϻυsɪᴄ ʙσᴛ\n❖ ησ ʟᴧɢ | ᴧᴅs ϻυsɪᴄ | ησ ᴘʀσϻσ\n❖ 24x7 ʀυη | ʙєsᴛ sσυηᴅ ǫυᴧʟɪᴛʏ\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━\n❖ ᴄʟɪᴄᴋ ση ᴛʜє ᴄᴏᴍᴍᴀɴᴅ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ\n    ᴧʙσυᴛ ϻʏ ϻσᴅυʟєs ᴧηᴅ ᴄσϻϻᴧηᴅs...!\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━"""
+        caption = f"""❖ ᴛʜɪs ɪs ˹ sʏsᴛᴇᴍ ꭙ мυѕιᴄ ˼ 🎶 ! \n\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━\n❖ ᴛʜɪs ɪs ϻɪɴɪ | ϻυsɪᴄ ʙσᴛ\n❖ ησ ʟᴧɢ | ᴧᴅs ϻυsɪᴄ | ησ ᴘʀσϻσ\n❖ 24x7 ʀυη | ʙєsᴛ sσυηᴅ ǫυᴧʟɪᴛʏ\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━\n❖ ᴄʟɪᴄᴋ ση ᴛʜє ᴄᴏᴍᴍᴀɴᴅ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ\n    ᴧʙσυᴛ ϻʏ ϻσᴅυʟєs ᴧηᴅ ᴄσϻϻᴧηᴅs...!\n━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━"""
 
         buttons = InlineKeyboardMarkup(
             inline_keyboard=[
